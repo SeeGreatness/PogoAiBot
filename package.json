@@ -1,5 +1,5 @@
 {
-  "name": "Pokemon Go Ai Bot",
+  "name": "pokemongobot",
   "description": "I am a bot designed to serve the pokemon go community",
   "version": "0.0.1",
   "main": "bot.js",
