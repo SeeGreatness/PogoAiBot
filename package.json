@@ -1,0 +1,14 @@
+{
+  "name": "Pokemon Go Ai Bot",
+  "description": "I am a bot designed to serve the pokemon go community",
+  "version": "0.0.1",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "sqlite":"3.0.0",
+    "discord.js": "11.3.2",
+    "request": "2.87.0"
+  }
+}
