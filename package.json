@@ -7,7 +7,6 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "sqlite":"3.0.0",
     "discord.js": "11.3.2",
     "request": "2.87.0"
   }
