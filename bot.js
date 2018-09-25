@@ -2,6 +2,14 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 const sql = require("sqlite");
+var pool = mysql.createPool({
+    connectionLimit : 100,
+    host : config.sqlhost,
+    user : config.sqluser,
+    password : config.sqlpassword,
+    database : config.sqldatabase,
+    debug : 'false'
+});
 sql.open("./score.sqlite");
 const token = config.token;
 const prefix = config.prefix;
