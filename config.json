@@ -1,4 +1,9 @@
 {
 "token":"process.env.BOT_TOKEN",
-"prefix":"process.env.prefix"
+"prefix":"process.env.prefix",
+"sqlhost":"process.env.sqlHost",
+"sqluser":"process.env.sqlUser",
+"sqlpassword":"process.env.sqlPassword",
+"sqldatabase":"process.env.sqlPort",
+"BotOwner":"360894787785719809"
 }
